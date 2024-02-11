@@ -1,1 +1,1 @@
-# vital_bridge
+# VitalBridge
