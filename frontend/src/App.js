@@ -12,15 +12,14 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+             <code>zubin</code> 
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            ur gay
           </a>
         </header>
       </div>
@@ -28,7 +27,6 @@ function App() {
         <Route exact path="/register" component={RegistrationForm} />
         <Route exact path="/login" component={LoginForm} />
         <Route exact path="/dashboard" component={Dashboard} />
-        {/* Default route */}
         <Redirect to="/dashboard" />
       </Switch>
     </Router>
